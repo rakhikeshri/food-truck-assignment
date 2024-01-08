@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.svg'
-import banner from '../assets/banner.png'
+import banner from '../assets/banner.webp'
 
 const Banner = () => {
     return (
