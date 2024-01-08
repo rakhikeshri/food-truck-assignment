@@ -1,0 +1,30 @@
+.swiper-button-prev,
+.swiper-button-next {
+    margin-top: 322px !important;
+    border: 1px solid #424961;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.swiper-button-prev {
+    left: 43% !important;
+}
+
+.swiper-button-next {
+    left: 53.5% !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    color: #424961;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 512px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none !important;
+    }    
+}
